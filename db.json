@@ -1,0 +1,141 @@
+{
+  "products": [
+    {
+      "productName": "Headphone-1",
+      "categoryId": "1",
+      "description": "Product description goes here",
+      "product_rating": "",
+      "product_color": "Red",
+      "product_available": "1",
+      "price": "2000",
+      "product_reviews": "",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "productName": "EarBuds-101",
+      "categoryId": "2",
+      "description": "Product description goes here",
+      "productImg": "img_path",
+      "price": 2200,
+      "is_available": true,
+      "rating": 4.5,
+      "reviews": 1020,
+      "vendor_name": "Noise",
+      "warranty": 2
+    },
+    {
+      "id": 4,
+      "productId": 4,
+      "productName": "One Plus",
+      "categoryId": "4",
+      "description": "Product description goes here",
+      "productImg": "img_path",
+      "price": 21499,
+      "is_available": true,
+      "rating": 4.5,
+      "reviews": 1290,
+      "vendor_name": "Seller-1",
+      "warranty": 2
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "productName": "Casual-TShirts",
+      "categoryId": "3",
+      "description": "Product description goes here",
+      "productImg": "img_path",
+      "price": 900,
+      "is_available": true,
+      "rating": 3.5,
+      "reviews": 780,
+      "vendor_name": "Seller-3",
+      "warranty": 2
+    },
+    {
+      "id": 5,
+      "productId": 5,
+      "productName": "Chinos",
+      "categoryId": "5",
+      "description": "Product description goes here",
+      "productImg": "img_path",
+      "price": 1399,
+      "is_available": true,
+      "rating": 5,
+      "reviews": 1033,
+      "vendor_name": "Seller-1",
+      "warranty": 2
+    },
+    {
+      "id": 6,
+      "productId": 6,
+      "productName": "Lenovo-Laptop",
+      "categoryId": "6",
+      "description": "Product description goes here",
+      "productImg": "img_path",
+      "price": 52200,
+      "is_available": true,
+      "rating": 4,
+      "reviews": 5343,
+      "vendor_name": "Seller-1",
+      "warranty": 2
+    },
+    {
+      "productName": "Levi's",
+      "categoryId": "9",
+      "description": "Original Leather",
+      "product_rating": "4",
+      "product_color": "Black",
+      "product_available": "1",
+      "price": "2199",
+      "product_reviews": "5",
+      "id": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Headphone-1"
+    },
+    {
+      "id": 2,
+      "categoryName": "EarBuds-101"
+    },
+    {
+      "id": 3,
+      "categoryName": "Casual-TShirts"
+    },
+    {
+      "id": 4,
+      "categoryName": "One Plus"
+    },
+    {
+      "id": 5,
+      "categoryName": "Chinos"
+    },
+    {
+      "id": 6,
+      "categoryName": "Lenovo-Laptop"
+    },
+    {
+      "id": 7,
+      "categoryName": "Phones"
+    },
+    {
+      "id": 8,
+      "categoryName": "Toys"
+    },
+    {
+      "id": 9,
+      "categoryName": "Tabs"
+    },
+    {
+      "id": 10,
+      "categoryName": "Laptops"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

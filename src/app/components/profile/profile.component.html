@@ -1,0 +1,110 @@
+<mat-form-field>
+    <input (keyup)="applyFilter($event.target.value)" matInput placeholder="Search">
+</mat-form-field>
+
+<div class="mat-elevation-z8">
+<mat-table [dataSource]="dataSource" matSort >
+    <!-- Position Column -->
+    <ng-container matColumnDef="position">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> No. </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.position}} </mat-cell>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Name </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.name}} </mat-cell>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="weight">
+      <mat-header-cell *matHeaderCellDef mat-sort-header> Weight </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.weight}} </mat-cell>
+    </ng-container>
+  
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="symbol">
+      <mat-header-cell *matHeaderCellDef> Symbol </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.symbol}} </mat-cell>
+    </ng-container>
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+<mat-paginator [pageSizeOptions]="[5,10,20]"showFirstLastButtons></mat-paginator>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------------- form-input ----------->
+<!-- <mat-form-field floatLabel="auto" hideRequiredMarker appearance="outline">
+    <mat-label>Name</mat-label>
+    <input matInput required>
+    <mat-hint align="start">Min 8 Characters</mat-hint>
+</mat-form-field>
+
+<mat-form-field floatLabel="auto" hideRequiredMarker appearance="fill" color="accent">
+    <mat-label>Name</mat-label>
+    <input matInput required>
+    <mat-hint align="start">Min 8 Characters</mat-hint>
+</mat-form-field> -->
+<!------------------- form-input ----------->
+
+<!-- <div class="mat-display-4">||||||||||||||||||||||||||||||||||||||||||</div> -->
+
+<!-- <div class="mat-display-4">This is display 4</div>
+<div class="mat-display-3">This is display 3</div>
+<div class="mat-display-2">This is display 2</div>
+<div class="mat-display-1">This is display 1</div>
+
+<div class="mat-headline">This is a headline for h1</div>
+<div class="mat-title">Heading 2</div>
+<div class="mat-subheading-2">Heading 3</div>
+<div class="mat-subheading-1">Heading 4</div>
+
+<div class="mat-body-1">Body Text</div>
+<div class="mat-body-text">Bold body text</div>
+<div class="mat-caption">Caption text</div>
+
+<div class="mat-typography">
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+</div>
+
+
+/---------------------button----------------------/
+<div>
+    <button mat-button>Click me!</button>
+    <button mat-raised-button>Raised</button>
+    <button mat-flat-button>Flat</button>
+    <button mat-stroked-button>Stroked</button>   
+</div>
+
+<div>
+    <button mat-icon-button>Click</button>
+    <button mat-fab>Fab</button>
+    <button mat-mini-fab>Fab</button>
+</div>
+
+<div>
+    <button color="primary" mat-button>Primary</button>
+    <button color="accent" mat-button>Accent</button>
+    <button color="warn" disableRipple mat-button>Warn</button>
+    <button color="primary" mat-raised-button>Primary</button>
+    <button color="accent" mat-raised-button>Accent</button>
+    <button color="warn" mat-raised-button>Warn</button>
+</div> -->

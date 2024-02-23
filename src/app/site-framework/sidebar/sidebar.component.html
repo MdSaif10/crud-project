@@ -1,0 +1,13 @@
+ <div class="sidebar">
+    <div class="list-group">
+        <a href="products" class="list-group-item" style="background-color: lightskyblue;" >View All Products</a>
+    
+        <a href="products/create-product" class="list-group-item" style="background-color: rgb(80, 84, 109);" >Create New  Products</a>
+      </div>
+    <div class="list-group" *ngFor="let categ of categoryList">
+      <a href="products/category/{{categ.id}}" class="list-group-item">{{categ.categoryName}}</a>
+     <!-- <button mat-raised-button>Enter</button> -->
+      </div>
+ </div>
+ 
+

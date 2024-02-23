@@ -1,0 +1,21 @@
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 3000px;
+    top: 22px;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    
+}
+.sidebar .list-group{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    bottom: 0;
+    z-index: 0;
+}
